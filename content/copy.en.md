@@ -14,7 +14,7 @@ About · Approach · Services · Founder · Contact · **Let's talk** (button) �
 
 ## 1. Hero
 
-**Eyebrow:** Purpose. Clarity. Progress.
+**Eyebrow:** From Complexity to Clarity.
 
 **Headline:** Building resilient organizations through strategy, governance, and innovation.
 
@@ -141,7 +141,7 @@ My strength is translating complex challenges into practical, sustainable soluti
 
 **Stratify N.V.:** Building resilient organizations through strategy, governance, and innovation.
 
-© Stratify N.V. · Purpose. Clarity. Progress.
+© Stratify N.V. · From Complexity to Clarity.
 
 ---
 

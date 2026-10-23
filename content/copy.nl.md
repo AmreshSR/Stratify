@@ -14,7 +14,7 @@ Over ons · Werkwijze · Diensten · Oprichter · Contact · **Neem contact op**
 
 ## 1. Hero
 
-**Bovenregel:** Doel. Helderheid. Vooruitgang.
+**Bovenregel:** From Complexity to Clarity.
 
 **Kop:** Wij bouwen weerbare organisaties met strategie, governance en innovatie.
 
@@ -141,7 +141,7 @@ Mijn kracht is het vertalen van complexe vraagstukken naar praktische, duurzame 
 
 **Stratify N.V.:** Wij bouwen weerbare organisaties met strategie, governance en innovatie.
 
-© Stratify N.V. · Doel. Helderheid. Vooruitgang.
+© Stratify N.V. · From Complexity to Clarity.
 
 ---
 

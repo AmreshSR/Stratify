@@ -1,6 +1,6 @@
 # Stratify: Design Brief
 
-Design rules source: tasteskill v2 (experimental).
+Design rules source: tasteskill v2 (`design-taste-frontend`, installed in `.agents/skills/`).
 
 ## Brief
 
@@ -46,14 +46,26 @@ Strategy · Governance · Quality · Risk · People Transformation
 
 ## Step 1: Design read
 
-**Read:** A light, editorial page on white with deep forest green as its one accent, earning trust through typography, whitespace, and plain statements, closer to a respected advisor's annual report than a tech startup.
+**Read:** A light, calm page on white where the name STRATIFY is the architecture: split into two halves pinned to opposite corners, with the firm's layers of work (strategy, governance, risk, people) passing between them, and forest green used only on the one action.
+
+**Direction dealt** (tasteskill v2 `draw.mjs`, sector `agency`, `--keep palette`, seed 1682847198): *The name as a monument*, chosen from three dealt options (name-as-monument, loud-flat-poster, dense-tiles). Loud-flat-poster fights a risk-averse governance audience; dense-tiles reads as busy. The monument carries the name's own meaning (strata, layers).
+
+**Idea:** On this page, the name Stratify (strata: layers) becomes the frame the page passes through, its two halves pinned to opposite corners while each layer of the work scrolls between them.
+
+**Live thing:** "Where do you stand?" A visitor picks their situation (handling personal data, adopting AI, preparing for certification, recovering from disruption) and sees the matching service and standard.
 
 | Dial | Value | Reasoning |
 |---|---|---|
-| DESIGN_VARIANCE | 5 | Asymmetric editorial splits give character; structure stays predictable for a cautious governance audience. |
-| MOTION_INTENSITY | 3 | Subtle reveal-on-scroll and hover states only; motion must never compete with credibility. |
-| VISUAL_DENSITY | 4 | Rich content (nine services, six standards, founder story) carried in disciplined lists, not crowded grids. |
+| DESIGN_VARIANCE | 6 | The split-name hero and stepped sections are unusual; content below stays in a calm, predictable two-column grid. |
+| MOTION_INTENSITY | 4 | One signature move (the pinned name) plus staggered section entrances; nothing that delays reading. |
+| VISUAL_DENSITY | 4 | Full content (nine services, six standards, founder) in quiet lists and tables, never crowded grids. |
 
-**Theme lock:** Light. White background, ink text, forest green accent (leaf green only as a small highlight).
+Note: tasteskill v2 has no dials or numbered Pre-Flight section. The dials are kept for this brief; its gate is `lint.mjs` + `inspect.mjs` (0 FAIL at 1440, 768, 390) + the house rules + the `critique.md` §4 write-up.
 
-**Imagery:** Generated architectural, material, and natural-light images, with a Picsum-seed fallback. No generated likeness of Sheetal: the founder section uses a marked placeholder until a real portrait is supplied.
+**Theme lock:** Light. White ground, ink `#0b1320` text, forest `#004428` on the single action. Contact and footer use the inverse (forest field, white text), as the direction requires.
+
+**Type:** Schibsted Grotesk only (800 display, 400/600 text).
+
+**Imagery:** Generated architecture and material images first, then the dealt Picsum "Architecture" set. No generated likeness of Sheetal; the founder section uses a marked placeholder until a real portrait is supplied.
+
+**Sections (8):** Hero (name split to corners) · Intro (right-half paragraph, lone photo) · Approach (lines that step across) · Services (statement, table pushed right) · Standards (names as one sentence) · Founder (side facts, wide paragraph) · Contact (email as display type) · Footer (name first, places under it)
