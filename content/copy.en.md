@@ -1,4 +1,4 @@
-# Stratify — Website Copy (English)
+# Stratify: Website Copy (English)
 
 Single-page site. The company sections speak as Stratify ("we"); the founder section is in Sheetal's own voice ("I").
 Sections appear in page order. Dutch version: `copy.nl.md` (same structure).

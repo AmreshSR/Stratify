@@ -1,4 +1,4 @@
-# Stratify — Websitetekst (Nederlands)
+# Stratify: Websitetekst (Nederlands)
 
 Website van één pagina. De bedrijfssecties spreken als Stratify ("wij"); de sectie over de oprichter is in Sheetals eigen stem ("ik").
 Spreekt de lezer aan met "u". Zelfde opbouw als `copy.en.md`.
