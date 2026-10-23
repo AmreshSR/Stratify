@@ -27,7 +27,7 @@ export const STEPS = [
   { line: "First, we set the strategy.", text: "A clear direction, translated into goals and decisions that hold." },
   { line: "Then we build governance.", text: "Accountability, risk and compliance frameworks that support every decision." },
   { line: "We make processes work.", text: "Management systems that work in daily practice, not just on paper." },
-  { line: "Your people carry it on.", text: "Leaders and teams who take ownership and move forward with confidence." },
+  { line: "People carry it forward.", text: "Leaders and teams who take ownership and move forward with confidence." },
 ];
 
 export type ServiceId =
