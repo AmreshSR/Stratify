@@ -9,19 +9,17 @@ export const MAILTO = `mailto:${EMAIL}?subject=${encodeURIComponent(
   "Conversation with Stratify",
 )}&body=${encodeURIComponent("Hello Stratify,\n\nOur organization would like to talk about:\n\n")}`;
 
-const picsum = (id: number, w: number, h: number) =>
-  `https://picsum.photos/id/${id}/${w}/${h}?grayscale`;
-
+// Picsum "Architecture" set, downloaded from Unsplash (greyscale) into public/photos.
 export const PHOTOS = {
-  hero: { src: picsum(1081, 900, 1300), w: 900, h: 1300, alt: "Stepped white building corner rising into a pale sky" },
-  bridge: { src: picsum(620, 2000, 1000), w: 2000, h: 1000, alt: "White arched bridge spanning still grey water" },
-  opening: { src: picsum(954, 900, 900), w: 900, h: 900, alt: "Narrow opening in a white wall revealing a staircase" },
-  facade: { src: picsum(887, 960, 1200), w: 960, h: 1200, alt: "White apartment facade with repeating balconies and windows" },
-  lattice: { src: picsum(618, 2000, 1100), w: 2000, h: 1100, alt: "Curving glass and steel lattice roof seen from below" },
+  hero: { src: "/photos/hero.jpg", w: 900, h: 1300, alt: "Stepped white building corner rising into a pale sky" },
+  bridge: { src: "/photos/bridge.jpg", w: 2000, h: 1000, alt: "Cyclist crossing a suspension bridge over open water" },
+  opening: { src: "/photos/opening.jpg", w: 900, h: 900, alt: "Narrow opening in a white wall revealing a staircase" },
+  facade: { src: "/photos/facade.jpg", w: 960, h: 1200, alt: "White apartment facade with repeating balconies and windows" },
+  lattice: { src: "/photos/lattice.jpg", w: 2000, h: 1100, alt: "Curving glass and steel lattice roof seen from below" },
 };
 
 export const CREDITS =
-  "Photographs via Unsplash / Picsum: Julien Moreau, Matthew Wiebe, Todd Quackenbush, Roman Kraft, Mika Ruusunen.";
+  "Photographs on Unsplash by Julien Moreau, Matthew Wiebe, Todd Quackenbush, Roman Kraft and Mika Ruusunen.";
 
 export const STEPS = [
   { line: "First, we set the strategy.", text: "A clear direction, translated into goals and decisions that hold." },

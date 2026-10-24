@@ -9,4 +9,4 @@ npm run build    # static export to out/
 ```
 
 Copy and data live in `app/content.ts`. Before launch: replace the sample email `info@stratify.sr`,
-and replace the Picsum photographs with the client's own or generated images.
+and replace the Unsplash photographs in `public/photos` with the client's own when available.

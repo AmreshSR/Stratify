@@ -44,7 +44,7 @@ export default function Page() {
 
           <div className="hero__screen hero__screen--two">
             <figure className="hero__wide shutter" data-reveal>
-              <img src={PHOTOS.bridge.src} width={PHOTOS.bridge.w} height={PHOTOS.bridge.h} alt={PHOTOS.bridge.alt} loading="lazy" />
+              <img src={PHOTOS.bridge.src} width={PHOTOS.bridge.w} height={PHOTOS.bridge.h} alt={PHOTOS.bridge.alt} />
             </figure>
             <div className="hero__tagline">
               <p className="statement" data-reveal style={d(1)}>From complexity to clarity.</p>
@@ -72,10 +72,10 @@ export default function Page() {
             </p>
           </div>
           <figure className="intro__photo shutter" data-reveal style={d(2)}>
-            <img src={PHOTOS.opening.src} width={PHOTOS.opening.w} height={PHOTOS.opening.h} alt={PHOTOS.opening.alt} loading="lazy" />
+            <img src={PHOTOS.opening.src} width={PHOTOS.opening.w} height={PHOTOS.opening.h} alt={PHOTOS.opening.alt} />
           </figure>
           <div className="intro__note" data-reveal style={d(3)}>
-            <img className="intro__logo" src="/logo.jpg" width={400} height={400} alt="Stratify NV logo: From Complexity to Clarity" loading="lazy" />
+            <img className="intro__logo" src="/logo.jpg" width={400} height={400} alt="Stratify NV logo: From Complexity to Clarity" />
             <p>For public and private sector organizations in Suriname and the region.</p>
           </div>
         </section>
@@ -102,7 +102,7 @@ export default function Page() {
           <h2 id="services-title" className="heading services__title" data-reveal>Nine areas of practice</h2>
           <ServiceFinder>
             <figure className="services__photo shutter" data-reveal>
-              <img src={PHOTOS.facade.src} width={PHOTOS.facade.w} height={PHOTOS.facade.h} alt={PHOTOS.facade.alt} loading="lazy" />
+              <img src={PHOTOS.facade.src} width={PHOTOS.facade.w} height={PHOTOS.facade.h} alt={PHOTOS.facade.alt} />
             </figure>
           </ServiceFinder>
         </section>
@@ -110,7 +110,7 @@ export default function Page() {
         {/* Standards: the names as one sentence, one lit at a time */}
         <section className="standards" aria-labelledby="standards-title">
           <figure className="standards__photo" data-reveal>
-            <img className="drift" src={PHOTOS.lattice.src} width={PHOTOS.lattice.w} height={PHOTOS.lattice.h} alt={PHOTOS.lattice.alt} loading="lazy" />
+            <img className="drift" src={PHOTOS.lattice.src} width={PHOTOS.lattice.w} height={PHOTOS.lattice.h} alt={PHOTOS.lattice.alt} />
           </figure>
           <div className="standards__text">
             <h2 id="standards-title" className="heading" data-reveal>International standards</h2>
